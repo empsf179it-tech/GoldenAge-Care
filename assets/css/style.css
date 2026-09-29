@@ -766,6 +766,7 @@ h3 {
     position: relative;
     height: 400px;
     display: block;
+    width: 100%;
     max-width: 100%;
     margin: 0;
     padding: 0;
@@ -1896,7 +1897,7 @@ h3 {
   display: grid;
   grid-template-columns: 1fr;
   gap: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 @media (min-width: 1025px) {
@@ -1915,14 +1916,14 @@ h3 {
 .footer-tagline {
   color: rgba(32, 39, 36, 0.7);
   font-size: 1.1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 0;
 }
 
 .footer-desc {
   color: rgba(32, 39, 36, 0.7);
   font-size: 0.95rem;
   line-height: 1.6;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
   max-width: 90%;
 }
 
@@ -2039,7 +2040,7 @@ h3 {
 
 .footer-bottom {
   border-top: 1px solid rgba(32, 39, 36, 0.1);
-  padding-top: 2rem;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
